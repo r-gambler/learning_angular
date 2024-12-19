@@ -4,9 +4,14 @@ import { Component } from '@angular/core';
   selector: 'app-home',
   imports: [],
   template: `
-    <p>
-      home works!
-    </p>
+   <section>
+    <form>
+      <input type="text" placeholder="Filter by City">
+      <button class="primary" type="button">Search</button>
+    </form>  
+   </section>
+   <section class="results">
+   </section>
   `,
   styleUrl: './home.component.css'
 })
